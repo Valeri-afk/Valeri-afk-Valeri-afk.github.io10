@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98.3vh;
+    font-size: 6vh;
+    background: linear-gradient(to top left, purple, crimson, orangered, gold);
+    background-repeat: no-repeat;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid black;
+}
