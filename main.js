@@ -3,7 +3,7 @@ let timer, hours, minutes, seconds;
     timer = new Date();
     hours = timer.getHours();
     minutes = timer.getMinutes();
-    seconds = timer.getSeconds();
+    seconds = timer.getSeconds() + 1;
     setInterval(textOutPut, 1000);
     setInterval(updateTime, 1000);
 }())
